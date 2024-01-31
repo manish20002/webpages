@@ -1,0 +1,139 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 0;
+    position: relative;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about__title {
+    font-size: var(--size-2xl);
+    color: var(--clr-light);
+}
+
+.about__description {
+    max-width: 60ch;
+    font-size: var(--size-sm);
+    color: var(--clr-slate600);
+}
+
+.about__hr {
+    border-color: var(--clr-slate800);
+}
+
+.about__subtitle {
+    font-size: var(--size-sm);
+    color: var(--clr-slate400);
+}
+
+.about__ul-container {
+    display: flex;
+}
+
+.about__ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    list-style-type: '\1F44D';
+    padding-left: 1em;
+    flex: 1;
+}
+
+.about__list {
+    font-size: var(--size-sm);
+    color: var(--clr-slate600);
+}
+
+.about__list::before {
+    content: '';
+    margin-left: 0.5em;
+}
+
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-container,
+.about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 10rem;
+}
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+.section__pic-container {
+    height: 250px;
+    width: 250px;
+    margin: auto;
+}
+
+.exp-sub-title {
+    color: red;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.about-details-container {
+    color: var(--clr-slate600);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers {
+    gap: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-containers,
+.about-details-containers {
+    display: flex;
+}
+
+.details-containers {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(213, 21, 21) 0.1rem solid;
+    border-color: rgb(237, 9, 9);
+    text-align: center;
+}
+
+.article-containers {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+.icons {
+    cursor: pointer;
+    height: 3rem;
+    width: 50rem;
+    justify-content: space-around;
+    gap: 0.5rem ;
+}
+
+.text-box {
+    text-align: left;
+}
+
+.p1 {
+    text-align: initial;
+}

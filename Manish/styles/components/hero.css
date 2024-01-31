@@ -1,0 +1,50 @@
+.hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .hero__img {
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .section__text {
+    align-self: center;
+    text-align: center;
+  }
+
+  .section__text p {
+    font-weight: 600;
+  }
+
+  .section__text_p1 {
+    text-align: center;
+  }
+
+  .section__text_p2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .title {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+
+  .icon {
+    cursor: pointer;
+    height: 2rem;
+  }

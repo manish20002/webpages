@@ -1,0 +1,127 @@
+.work {
+  text-align: center;
+}
+
+.work_body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: arial;
+}
+
+.work__title {
+  font-size: var(--size-2xl);
+  color: var(--clr-light);
+}
+
+
+.effect-container {
+  width: 1000px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.effect-container .cards {
+  position: relative;
+}
+
+.effect-container .cards .face {
+  width: 300px;
+  height: 200px;
+  transition: .4s;
+}
+
+.effect-container .cards .face.face1 {
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.effect-container .cards:hover .face.face1 {
+  transform: translateY(0);
+  box-shadow:
+    inset 0 0 60px whitesmoke,
+    inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff,
+    inset 20px 0 300px #f0f,
+    inset -20px 0 300px #0ff,
+    0 0 20px #d14c4c,
+    -10px 0 80px #f0f,
+    10px 0 80px #0ff;
+
+}
+
+
+.effect-container .cards .face.face1 .contentss {
+  opacity: .2;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.effect-container .cards:hover .face.face1 .contentss {
+  opacity: 1;
+}
+
+.effect-container .cards .face.face1 .contentss i {
+  font-size: 3em;
+  color: var(--clr-slate600);
+  display: inline-block;
+}
+
+.effect-container .cards .face.face1 .contentss h3 {
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
+
+.effect-container .cards .face.face1 .contentss a {
+  transition: .5s;
+}
+
+.effect-container .cards .face.face2 {
+  position: relative;
+  color: var(--clr-slate600);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, .8);
+  transform: translateY(-100px);
+}
+
+.effect-container .cards:hover .face.face2 {
+  transform: translateY(0);
+}
+
+.effect-container .cards .face.face2 .contentss p,
+a {
+  font-size: 10pt;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.effect-container .cards .face.face2 .contentss a {
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+  outline: 1px dashed #333;
+  padding: 10px;
+  margin: 15px 0 0;
+  display: inline-block;
+}
+
+.effect-container .cards .face.face2 .contents a:hover {
+  background: #333;
+  color: rgb(124, 55, 55);
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}

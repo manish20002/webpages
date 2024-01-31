@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+  <title>Manish Thirani</title>
+</head>
+
+<body>
+  <header class="header container">
+    <nav>
+      <ul class="header__menu">
+        <li>
+          <a class="header__link" href="#about">About</a>
+        </li>
+        <li>
+          <a class="mobile-nav__link" href="#exp">Experience</a>
+        </li>
+        <li>
+          <a class="header__link" href="#pro">Projects</a>
+        </li>
+        <li>
+          <a class="header__link" href="#contact">Contact</a>
+        </li>
+        <li class="header__line"></li>
+        <li>
+          <a class="mobile-nav__btn btn" href="#">Resume</a>
+        </li>
+        <li>
+          <button aria-label="theme-toggle btn" id="theme-toggle" class="header__sun">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+            </svg>
+          </button>
+        </li>
+      </ul>
+      <button aria-label="mobile nav button" class="header__bars">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+          <path fill-rule="evenodd"
+            d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm8.25 5.25a.75.75 0 0 1 .75-.75h8.25a.75.75 0 0 1 0 1.5H12a.75.75 0 0 1-.75-.75Z"
+            clip-rule="evenodd" />
+        </svg>
+      </button>
+    </nav>
+  </header>
+  <!-- Mobile Navigation -->
+  <div class="mobile-nav">
+    <nav>
+      <ul class="mobile-nav__menu">
+        <li>
+          <a class="mobile-nav__link" href="#about">About</a>
+        </li>
+        <li>
+          <a class="mobile-nav__link" href="#exp">Experience</a>
+        </li>
+        <li>
+          <a class="mobile-nav__link" href="#pro">Projects</a>
+        </li>
+        <li>
+          <a class="mobile-nav__link" href="#contact">Contact</a>
+        </li>
+        <li class="mobile-nav__link-line"></li>
+        <li>
+          <button aria-label="theme-toggle btn" id="theme-toggle" class="mobile-nav__sun">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <a class="mobile-nav__btn btn" href="#">Resume</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <main>
+
+    <!-- Hero -->
+
+    <section class="hero container">
+      <img class="hero__img" src="/Logo2.jpg" alt="Manish's Profile picture" />
+      <div class="section__text">
+        <p class="section__text_p1">Hello,i'm</p>
+        <h1 class="title">Manish Thirani</h1>
+        <p class="section__text_p2">Full Stack Developer</p>
+
+        <div class="btn-container">
+          <button class="btn" onclick="window.open('./public/Logo2.jpg')">Download CV</button>
+          <button class="btn" onclick="location.href='./#contact'"> Contact Info</button>
+        </div>
+        <div class="socials-container">
+          <img src="/instagramla.svg" alt="instagram" class="icon"
+            onclick="location.href='https://www.instagram.com/ethical_hacking_python/'" title="Instagram">
+          <img src="/githubla.svg" alt="github" class="icon" onclick="location.href='https://github.com/manish20002'"
+            title="Github" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+
+    <section id="about" class="about container section">
+      <div class="about-container">
+        <div class="section__pic-container">
+          <img src="/Logo2.jpg" alt="profile pic" class="about-pic">
+        </div>
+      </div>
+      <div class="about__content">
+        <h2 class="about__title">About Me</h2>
+        <p class="about__description">
+          Hello there! I'm Manish, a
+          <strong>Frontend / Fullstack-Jamstack</strong> web developer based
+          near Montreal. I wake up in the morning, grab a cup of timmies
+          coffee, open up my laptop and build things that live on the web all
+          day, everyday.
+        </p>
+        <p class="about__description">
+          People who know me say I'm obsessed, that's fair, I am very driven
+          and love learning new things.
+        </p>
+        <hr />
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icons">
+                <path fill-rule="evenodd"
+                  d="M2.25 2.25a.75.75 0 0 0 0 1.5H3v10.5a3 3 0 0 0 3 3h1.21l-1.172 3.513a.75.75 0 0 0 1.424.474l.329-.987h8.418l.33.987a.75.75 0 0 0 1.422-.474l-1.17-3.513H18a3 3 0 0 0 3-3V3.75h.75a.75.75 0 0 0 0-1.5H2.25Zm6.54 15h6.42l.5 1.5H8.29l.5-1.5Zm8.085-8.995a.75.75 0 1 0-.75-1.299 12.81 12.81 0 0 0-3.558 3.05L11.03 8.47a.75.75 0 0 0-1.06 0l-3 3a.75.75 0 1 0 1.06 1.06l2.47-2.47 1.617 1.618a.75.75 0 0 0 1.146-.102 11.312 11.312 0 0 1 3.612-3.321Z"
+                  clip-rule="evenodd" />
+              </svg>
+              <h2>Exprience</h2>
+              <br />
+              <div class="text-box">
+                <p1>2+ years
+                  <hr>
+                  <b>FullStack Development,</b>
+                  <br>
+                  <b>Cyber Security</b>
+                </p1>
+              </div>
+            </div>
+
+            <div class="details-container">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icons">
+                <path
+                  d="M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.948 49.948 0 0 0-9.902 3.912l-.003.002c-.114.06-.227.119-.34.18a.75.75 0 0 1-.707 0A50.88 50.88 0 0 0 7.5 12.173v-.224c0-.131.067-.248.172-.311a54.615 54.615 0 0 1 4.653-2.52.75.75 0 0 0-.65-1.352 56.123 56.123 0 0 0-4.78 2.589 1.858 1.858 0 0 0-.859 1.228 49.803 49.803 0 0 0-4.634-1.527.75.75 0 0 1-.231-1.337A60.653 60.653 0 0 1 11.7 2.805Z" />
+                <path
+                  d="M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.284a.75.75 0 0 1-.46.711 47.87 47.87 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.87 47.87 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286.921.304 1.83.634 2.726.99v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.66a6.727 6.727 0 0 0 .551-1.607 1.5 1.5 0 0 0 .14-2.67v-.645a48.549 48.549 0 0 1 3.44 1.667 2.25 2.25 0 0 0 2.12 0Z" />
+                <path
+                  d="M4.462 19.462c.42-.419.753-.89 1-1.395.453.214.902.435 1.347.662a6.742 6.742 0 0 1-1.286 1.794.75.75 0 0 1-1.06-1.06Z" />
+              </svg>
+              <h2>Education</h2>
+              <br>
+              <div class="text-box">
+                <h3>Schooling & Intermediate:</h3>
+                <hr>
+                <p> KENDRIYA VIDYALAYA PICKET, SECUNDERABAD</p>
+                <br>
+                <h3>Graduation:</h3>
+                <p>Osmania University, Hyderabad
+                  <hr> Bachelor of Commerce in Computer Applications
+                </p>
+                <p>(B.C.C.A)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Exprience -->
+
+    <section id="exp" class="exp container section">
+      <h1 class="title">Exprience</h1>
+      <div class="exp-details-container">
+        <div class="about-container">
+          <div class="details-container">
+            <h2 class="exp-sub-title">Frontend Development</h2>
+            <div class="skill-box">
+              <span class="title">HTML</span>
+              <div class="skill-bar">
+                <div class="skill-per">
+                  <span class="tooltip">90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-box">
+              <span class="title">CSS</span>
+              <div class="skill-bar">
+                <div class="skill-per css">
+                  <span class="tooltip">70%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-box">
+              <span class="title">JavaScript</span>
+              <div class="skill-bar">
+                <div class="skill-per JavaScript">
+                  <span class="tooltip">60%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Backend -->
+          <div class="details-container">
+            <h2 class="exp-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon">
+                  <path fill-rule="evenodd"
+                    d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                    clip-rule="evenodd" />
+                </svg>
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section id="pro" class="work container section">
+      <h1 class="title">Projects</h1>
+      <div class="work_body">
+        <div class="effect-container">
+          <div class="cards">
+            <div class="face face1">
+              <div class="contents">
+                <i class="fab fa-windows"></i>
+                <h3>Windows</h3>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="contents">
+                <p> this is me!!!</p>
+                <a class="btn" href="#" type="button">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards">
+            <div class="face face1">
+              <div class="contents">
+                <i class="fab fa-android"></i>
+                <h3>Android</h3>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="contents">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et
+                  hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur
+                  alias corporis?</p>
+                <a class="btn" href="#" type="button">Read More</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="cards">
+            <div class="face face1">
+              <div class="contents">
+                <i class="fab fa-apple"></i>
+                <h3>Apple</h3>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="contents">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et
+                  hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur
+                  alias corporis?</p>
+                <a class="btn" href="#" type="button">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacts -->
+
+    <section id="contact" class="contact container section">
+      <div>
+        <h2 class="contact__title">Get In Contact</h2>
+        <p class="contact__description">
+          Whether you are starting a project, have business inquiries or just
+          want to say hi, my inbox is always open so feel free to reach out and
+          I will get back to you as soon as possible.
+        </p>
+        <br>
+        <a class="contact__btn btn" href="mailto:foruseuse@gmail.com" target="_blank">React Out</a>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer container section">
+    <h3 class="footer__title">~ Manish Thirani ~</h3>
+    <div class="socials-containers">
+      <img src="/instagramla.svg" alt="Instagram" class="icon"
+        onclick="location.href='https://www.instagram.com/ethical_hacking_python/'" title="Instagram">
+      <img src="/linkedinla.svg" alt="Linkedin" class="icon"
+        onclick="location.href='https://www.linkedin.com/in/manish-thirani-37063b235/'">
+      <img src="/githubla.svg" alt="github" class="icon" onclick="location.href='https://github.com/manish20002'">
+    </div>
+  </footer>
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
