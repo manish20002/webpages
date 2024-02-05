@@ -23,4 +23,4 @@ $ Heroicons (v2.1.1)
 ![Screenshot 2024-01-31 121120](https://github.com/manish20002/webpages/assets/73772706/cd46b837-5c49-48b6-9dd3-431d2f864103)
 ## Follow Me ~
 ### `ig`:- https://www.instagram.com/manish_heroisgreat_20/
-### `ig page`:- [Click here] (https://www.instagram.com/ethical_hacking_python/)
+### `ig page`:- [Click here] (https://www.instagram.com/ethical_hacking_python)
